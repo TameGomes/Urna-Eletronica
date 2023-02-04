@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Jhin: 44 <br>GangPlank: 54 <br>Camille: 37
+    </p>
+<script async def src="script.js"></script>
+    <div class="urna">
+    <div class="tela">
+        <div class="description">
+            <div class="description-left">
+        <div class="description-1">
+                SEU VOTO PARA
+        </div>
+        <div class="description-2">
+            PRESIDENTE
+        </div>
+        <div class="description-name">
+            <div class="description-number">
+                <span> NÚMERO: </span>
+                <div class="number-1"></div>
+                <div class="number-2"></div>
+           </div>
+              <div class="name">NOME:</div><br>
+              <div class="party">PARTIDO: </div>
+        </div>
+    </div>
+    <div class="fim">FIM</div>
+    <div class="white-message">VOTO EM BRANCO</div>
+        <div class="description-img">
+            <img src="" alt="">
+        </div>
+    </div>
+        <div class="mensagem-tela">
+            <hr>
+            <div class="mensagem">
+            Aperte a tecla: <br>
+            VERDE para CONFIRMAR este voto<br>
+            LARANJA para CORRIGIR este voto
+        </div>
+        </div>
+    </div>
+    <div class="teclado">
+        <div class="buttons">
+        <div class="line-1">
+        <button onclick="clicou('1')">1</button>
+        <button onclick="clicou('2')">2</button>
+        <button onclick="clicou('3')">3</button>
+    </div>
+    <div class="line-2">
+    <button onclick="clicou('4')">4</button>
+    <button onclick="clicou('5')">5</button>
+    <button onclick="clicou('6')">6</button>
+    </div>
+    <div class="line-3">
+        <button onclick="clicou('7')">7</button>
+        <button onclick="clicou('8')">8</button>
+        <button onclick="clicou('9')">9</button>
+        </div>
+        <div class="line-4">
+            <button onclick="clicou('0')">0</button>
+            </div>
+            <div class="line-5">
+                <button class="white" onclick="white()">BRANCO</button>
+                <button class="correct" onclick="correct()">CORRIGE</button>
+                <button class="confirm" onclick="confirm()">CONFIRMA</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
